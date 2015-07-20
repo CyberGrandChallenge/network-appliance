@@ -1,0 +1,11 @@
+cgc-network-appliance (7190-cfe-alpha) UNRELEASED; urgency=low
+
+  * build
+
+ -- Brian Caswell <bmc@lungetech.com>  Fri, 17 Jul 2015 18:38:44 +0000
+
+cgc-network-appliance (1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- bmc <bmc@lungetech.com>  Thu, 17 Apr 2014 16:45:08 -0400
