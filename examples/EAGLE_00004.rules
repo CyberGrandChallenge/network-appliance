@@ -1,0 +1,2 @@
+block (name:"negative register values"; side:client; regex:"^(push|pop|mov|add|sub|mul|div|out|mod|shl|shr|exc|swp) (r-\d+|[rm]?\d+,r-\d+)";)
+admit (name:"ignore everything else to the newline"; side:client; match:"\x0a";)

@@ -1,0 +1,16 @@
+# this is a comment
+alert (name:"hi mom"; match:"hello there", 11 ;)
+alert (name:"hi mom"; match:"hello there"; match:"bob";)
+alert (name:"hi mom"; match:"bob";) # BAR
+alert (name:"hi mom"; match:"mom"; skip:4; match:"dad";)
+
+alert (name:"hi mom"; match:"hello there"; skip: 4; match:"bob"; replace:"wit";)
+alert (name:"hi mom"; match:"hello there"; skip: 4; match:"bob", 4; replace:"wit";)
+alert (name:"hi mom"; match:"hello there"; skip: 4; match:"bob", 4; replace:"wit";)
+alert (name:"hi mom"; match:"A\x41A"; skip: 4; match:"bob", 4; replace:"wit";)
+alert (name:"hi mom"; match : " WUT " ; regex:"foo bar.*";)
+alert (name:"hi mom"; state:is,mom; state:not,dad; state:set,dad; state:unset,mom;)
+alert (name:"hi mom"; side:server; match:"hello";)
+alert (name:"hi mom"; side:client; match:"good bye";)
+# alert (name:"hi mom") # known bad - missing a semi-colon
+# alert (name:"foo match:"; match:"itch";) foo  # known bad, extra content after the paren.

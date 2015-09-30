@@ -1,0 +1,1 @@
+block (name:"ch_sec directory traversal"; side:client; regex:"^ch_sec \x7c\x2b\x2b\x7c\x2b\x2b\x7c";)
