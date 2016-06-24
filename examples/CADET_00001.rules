@@ -1,0 +1,4 @@
+admit (name:"whenever we see server data, flush the client stream"; side:server; regex:".*"; flush:client;)
+
+block (name:"too much data without the server responding"; side:client; regex:".{65}";)
+
